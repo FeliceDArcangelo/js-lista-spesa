@@ -6,6 +6,7 @@ let i = 0
 while (i < numArr.length){
     console.log(numArr[i])
     list.innerHTML += `<li>${numArr[i]}</li>`
+    i++
 }
 
 let button = document.querySelector('#button')
